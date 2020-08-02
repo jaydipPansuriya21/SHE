@@ -1,0 +1,121 @@
+body, html {
+  height: 100%;
+}
+body{
+  margin:10px;
+  padding: 0%;
+}
+img{
+  display: inline-block;
+}
+nav{
+  font-size: 17px;
+  position: relative;
+  border-radius: 30px;
+}
+nav>a{
+  color: darkblue;
+  font-weight: bold;
+  background-color: lightgrey;
+  text-decoration: none;
+  padding: 1%;
+  display: inline-block;
+  
+}
+#dash{
+  padding-right: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+#abo{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+a:hover, a:focus{
+  color: rgba(51, 51, 51, 1);
+  background-color: grey;
+}
+
+.circle1{
+  
+  height: 300px;
+  width: 300px;
+  background-color:  rgb(255, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  left: 350px;
+  top: 80px;
+  z-index: 1;
+  text-decoration: none;
+  opacity: 0.9;
+  text-align: center; 
+  font-family: Helvetica;
+}
+.circle1 p{
+  color: white; font-size: 130px;margin-top: 40px; margin-bottom: 0px;
+}
+.circle1 span{
+  color: white; font-size: 30px;margin-top: 0px;
+}
+.circle1 a{
+  text-decoration: none;
+  color: white;
+}
+.circle1 a:hover{
+  background-color: rgb(255,0,0);
+}
+.circle2{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(64, 135, 206);
+  border-radius: 50%;
+  position: relative;
+  left: 370px;
+  top: 270px;
+  text-align: center; font-family: Helvetica;
+}
+.circle2 p{
+	color: white; font-size: 130px;padding-top: 40px;margin-top: 0px; margin-bottom: 0px;
+}
+.circle2 span{
+	color: white; font-size: 30px;margin-top: 0px;
+}
+.circle3{
+  height: 300px;
+  width: 300px;
+  background-color: rgba(221, 174, 46, 0.925);
+  border-radius: 50%;
+  position: absolute;
+  left: 610px;
+  top: 155px;
+  text-align: center; font-family: Helvetica;
+}
+.circle3 p{
+	color: white; font-size: 130px;margin-top: 40px; margin-bottom: 0px;
+}
+.circle3 span{
+	color: white; font-size: 30px;margin-top: 0px;
+}
+.circle4{
+  height: 150px;
+  width: 150px;
+  background-color: rgba(0,176,80);
+  border-radius: 80px;
+  position: absolute;
+  left: 678px;
+  top: 455px;
+  z-index: 1;
+  text-align: center; font-family: Helvetica;
+}
+.circle4 p{
+	color: white; font-size: 70px;margin-top: 20px; margin-bottom: 0px;
+}
+.circle4 span{
+	color: white; font-size: 15px;margin-top: 0px;
+}
+.emergency :hover{
+  background-color: reb(255,0,0);
+}
+
+
+

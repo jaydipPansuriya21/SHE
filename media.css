@@ -1,0 +1,68 @@
+@media screen and (max-width: 1919px){
+
+}
+@media screen and (max-width: 1599px){
+
+}
+@media screen and (max-width: 1439px){
+
+}
+@media screen and (max-width: 1365px){
+
+}
+@media screen and (max-width: 1279px){
+	.circle1 {
+	height: 270px;
+    width: 270px;
+    left: 270px
+	}
+	.circle1 p
+	{
+		font-size: 120px;
+	}
+	.circle1 span 
+	{
+		font-size: 25px;
+	}
+	.circle2{
+	height: 270px;
+    width: 270px;
+    left: 280px;
+    top: 270px;
+	}
+	.circle2 p{
+	text-align: left;
+	font-size: 120px;
+    padding-top: 40px;
+    margin-top: 16px;
+	}
+	.circle2 span 
+	{
+		font-size: 25px;
+	}
+	.circle3{
+	height: 270px;
+    width: 270px;
+    left: 496px;
+	}
+	.circle3 p{
+		 font-size: 120px;
+	}
+	.circle3 span 
+	{
+		font-size: 25px;
+	}
+	.circle4{
+	height: 135px;
+    width: 135px;
+    left: 564px;
+    top: 425px;
+	}
+	.circle4 p{
+		font-size: 60px;
+	}
+	.circle4 span{
+		font-size: 12px;
+	}
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div id="map"></div>
+    <?php
+    $lat: 28.7041;
+    $lng: 77.1025;
+    ?>
+    <script>
+      var map;
+      function initMap() {
+        var lat = "<?php echo $lat ?>";
+        var lng = "<?php echo $lng ?>";
+        //alert(lat);
+        //echo "lng";
+        var delhi = {lat: 18.5204, lng: 73.8567};
+        map = new google.maps.Map(document.getElementById('map'), {
+          
+          zoom: 10,
+          center: delhi
+        });
+
+        var marker = new google.maps.Marker({
+          position: delhi,
+          map:map
+        }); 
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKtzd-npgkxS2q_EdWYtTqFxcLyCuZTs0&callback=initMap"
+    async defer></script>
+  </body>
+</html>
